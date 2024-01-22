@@ -1,0 +1,7 @@
+2024/01/20-02:10:26.819 bfa4 Recovering log #145
+2024/01/20-02:10:26.821 bfa4 Delete type=0 #145
+2024/01/20-02:10:26.822 bfa4 Delete type=3 #144
+2024/01/20-02:17:49.036 11010 Level-0 table #149: started
+2024/01/20-02:17:49.036 11010 Level-0 table #149: 0 bytes OK
+2024/01/20-02:17:49.037 11010 Delete type=0 #147
+2024/01/20-02:17:49.041 11010 Manual compaction at level-0 from '!items!CqVnu3AV2brl9RBw' @ 72057594037927935 : 1 .. '!items!ecYBLBzTYHZOPP0g' @ 0 : 0; will stop at (end)

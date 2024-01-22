@@ -1,0 +1,196 @@
+{
+  "id": "monsterhearts-fr-pbta",
+  "title": "Monsterhearts FR (PbtA)",
+  "description": "",
+  "version": "1.0.0",
+  "license": "LICENSE",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "YanK",
+      "url": "https://fr.tipeee.com/yank",
+      "email": "yanklinnomme@gmail.com",
+      "discord": "yanklinnomme"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": ["monsterhearts-fr-pbta.js"],
+  "styles": ["css/monsterhearts-fr-pbta.css"],
+  "packs": [
+    {
+      "name": "actions",
+      "label": "Actions",
+      "path": "packs/actions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "ame-damnee",
+      "label": "Âme Damnée",
+      "path": "packs/ame-damnee",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "conditions",
+      "label": "Conditions",
+      "path": "packs/conditions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "fantome",
+      "label": "Fantôme",
+      "path": "packs/fantome",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "fee",
+      "label": "Fée",
+      "path": "packs/fee",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "goule",
+      "label": "Goule",
+      "path": "packs/goule",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "loupve-garou",
+      "label": "Loup·ve-garou",
+      "path": "packs/loupve-garou",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "mortelle",
+      "label": "Mortel·le",
+      "path": "packs/mortelle",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "mues",
+      "label": "Mues",
+      "path": "packs/mues",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "ombre",
+      "label": "Ombre",
+      "path": "packs/ombre",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "roireine",
+      "label": "Roi·Reine",
+      "path": "packs/roireine",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "sorcierere",
+      "label": "Sorcier·ère",
+      "path": "packs/sorcierere",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "vampire",
+      "label": "Vampire",
+      "path": "packs/vampire",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "fr.json"
+    }
+  ]
+}

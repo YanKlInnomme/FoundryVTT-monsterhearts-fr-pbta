@@ -1,0 +1,14 @@
+#logo {
+  content: url("../assets/logo_fr.webp");
+  width: 150px;
+  height: auto;
+  padding-right: 10px;
+}
+
+.pbta.sheet .sheet-attributes .cell--stats .stat {
+  background: #b71ac5;
+}
+
+.pbta.sheet .sheet-attributes .cell--stats .stat.hover {
+  background: #8f0f9b;
+}
