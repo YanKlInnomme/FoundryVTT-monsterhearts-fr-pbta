@@ -4,16 +4,16 @@ Hooks.on("renderSettings", (app, html) => {
   let lotdDiv = $(`<div></div>`);
   lotdSection.after(lotdDiv);
   let helpButton = $(
-    `<button><i class="fa-solid fa-cart-shopping"></i> Lapin Marteau</button>`
+    `<button><i class="fa-solid fa-cart-shopping"></i> Lapin Marteau <sup><i class="fa-light fa-up-right-from-square"></i></sup></button>`
   );
   lotdDiv.append(helpButton);
   helpButton.on("click", (ev) => {
     ev.preventDefault();
-    window.open("https://www.lapinmarteau.com/shop/", "_blank");
+    window.open("https://www.gameontabletop.com/cf1941/monsterhearts.html", "_blank");
   });
 
   let dicordButton = $(
-    `<button><i class="fab fa-github"></i> Dépôt du module</button>`
+    `<button><i class="fab fa-github"></i> Dépôt du module <sup><i class="fa-light fa-up-right-from-square"></i></sup></button>`
   );
   lotdDiv.append(dicordButton);
   dicordButton.on("click", (ev) => {
@@ -22,12 +22,12 @@ Hooks.on("renderSettings", (app, html) => {
   });
 
   let patreonButton = $(
-    `<button><i class="fa-solid fa-heart fa-beat fa-xs"></i> Soutenez-moi via Tipeee</button>`
+    `<button><i class="fa-solid fa-mug-hot fa-bounce"></i> Offrez-moi un café <sup><i class="fa-light fa-up-right-from-square"></i></sup></button>`
   );
   lotdDiv.append(patreonButton);
   patreonButton.on("click", (ev) => {
     ev.preventDefault();
-    window.open("https://fr.tipeee.com/yank", "_blank");
+    window.open("https://www.buymeacoffee.com/yank", "_blank");
   });
 });
 

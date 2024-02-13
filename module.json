@@ -184,6 +184,18 @@
       },
       "system": "pbta",
       "flags": {}
+    },
+    {
+      "name": "decors",
+      "label": "Décors",
+      "path": "packs/decors",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
     }
   ],
   "languages": [

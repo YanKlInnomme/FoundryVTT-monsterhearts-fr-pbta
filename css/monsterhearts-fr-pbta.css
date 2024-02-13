@@ -5,6 +5,10 @@
   padding-right: 10px;
 }
 
+#ui-top.offset {
+  margin-left: -60px;
+}
+
 .pbta.sheet .sheet-attributes .cell--stats .stat {
   background: #b71ac5;
 }
@@ -12,3 +16,4 @@
 .pbta.sheet .sheet-attributes .cell--stats .stat.hover {
   background: #8f0f9b;
 }
+
